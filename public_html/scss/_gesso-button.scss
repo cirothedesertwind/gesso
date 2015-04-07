@@ -32,6 +32,6 @@
     background-color: $color-disabled;
 }
 
-[data-gesso-btn] [data-gesso-icon] {
+[data-gesso-btn] > [data-gesso-icon] {
     padding-right: 0.5em;
 }
