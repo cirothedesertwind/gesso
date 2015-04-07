@@ -1,6 +1,6 @@
 [data-gesso-btn] {
     /* Default Background */
-     background-color: $color-1ary;
+    background-color: $color-1ary;
     
     /* Font */
     color: $color-white;
@@ -30,4 +30,8 @@
 
 [data-gesso-btn]:disabled {
     background-color: $color-disabled;
+}
+
+[data-gesso-btn] [data-gesso-icon] {
+    padding-right: 0.5em;
 }
