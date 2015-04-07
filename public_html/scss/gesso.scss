@@ -1,5 +1,50 @@
 $font: 'Open Sans', sans-serif;
+$border-radius: 2px;
+
+$color-white: #f2f2f2;
+$color-black: #0d0d0d;
+
+$color-disabled: #bbb;
+
+$color-1ary: #2e3842;
+$color-1ary-shadow: #242b33; 
 
 body {
     font-family: $font;
+}
+
+[data-gesso-btn] {
+    /* Default Background */
+     background-color: $color-1ary;
+    
+    /* Font */
+    color: $color-white;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    
+    /* Margins and Padding */
+    margin: 0;
+    padding: 0.25em 1em 0.25em 1em;
+    
+    /* Borders */
+    outline: none;
+    border: none;
+    border-radius: $border-radius;
+    
+    /* Cursor */
+    cursor: pointer;
+    
+    /* Disable text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+[data-gesso-btn]:active {
+    background-color: $color-1ary-shadow;
+}
+
+[data-gesso-btn]:disabled {
+    background-color: $color-disabled;
 }
