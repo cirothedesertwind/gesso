@@ -1,0 +1,33 @@
+[data-gesso-btn] {
+    /* Default Background */
+     background-color: $color-1ary;
+    
+    /* Font */
+    color: $color-white;
+    text-align: center;
+    
+    /* Margins and Padding */
+    margin: 0;
+    padding: 0.25em 1em 0.25em 1em;
+    
+    /* Borders */
+    outline: none;
+    border: none;
+    border-radius: $border-radius;
+    
+    /* Cursor */
+    cursor: pointer;
+    
+    /* Disable text selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+[data-gesso-btn]:active {
+    background-color: $color-1ary-shadow;
+}
+
+[data-gesso-btn]:disabled {
+    background-color: $color-disabled;
+}
