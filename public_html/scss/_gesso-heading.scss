@@ -1,0 +1,52 @@
+/*
+Headings adapted from calculations from type-scale.com
+Type Scale (c) 2014 Jeremy Church, MIT License
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.15em 0 0.15em 0;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {font-size: 2em;}
+
+h2 {font-size: 1.728em;}
+
+h3 {font-size: 1.44em;}
+
+h4 {font-size: 1.2em;}
+
+h5 {font-size: 1.15em; font-style: bold;}
+
+h6 {font-size: 1em;}
+
+@media(min-width: 45em) {
+
+    h1 { font-size: 2.441em;}
+
+    h2 {font-size: 1.953em;}
+
+    h3 {font-size: 1.563em;}
+
+    h4 {font-size: 1.25em;}
+
+    h5 {font-size: 1.15em; font-style: bold;}
+
+    h6 {font-size: 1em;}
+}
+
+@media(min-width: 72em){
+
+    h1 {font-size: 4em;}
+
+    h2 {font-size: 2.827em;}
+
+    h3 {font-size: 2em;}
+
+    h4 {font-size: 1.414em;}
+
+    h5 {font-size: 1.15em; font-style: bold}
+
+    h6 {font-size: 1em;}
+}

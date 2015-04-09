@@ -9,8 +9,16 @@ $color-disabled: #bbb;
 $color-1ary: #2e3842;
 $color-1ary-shadow: #242b33; 
 
+html {
+    font-size: 1em;
+}
+
 body {
     font-family: $font;
+    font-weight: 400;
+    ine-height: 1.45;
 }
 
 @import 'gesso-button';
+@import 'gesso-heading';
+@import 'gesso-paragraph';
